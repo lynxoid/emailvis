@@ -1,0 +1,636 @@
+body {
+	background-color: white;
+	margin:0;
+	padding:0;
+	border:0;		/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	min-width:400px;	/* Minimum width of layout - remove line if not required */
+				/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+	font-family: 'Viga', sans-serif;
+}
+
+canvas { 
+	background-color: black; 
+	border: 0px solid black; 
+}
+
+table.centeredTable {
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#wrapper {
+	/* width: 100%; */
+/*	min-height: 800px;*/
+	min-width: 400px;
+	min-height: 100%;
+	height: auto !important;
+	/* height: 100%; */
+	/*border: solid brown 1px; */
+}
+
+
+#content {
+	padding: 0 0 0 0;
+	/* position: relative; */
+	/*border: 1px solid yellow; */
+	height: 100%;
+  /*background: url(images/logo.gif) left top no-repeat;*/
+  background-position: 0px 27px;
+	/*
+	float:left;
+	width: 100%; /* clk: was 81% */
+	/*height: 100%;
+	padding: 0 0 0 0;
+	*/
+}
+
+#networkDiagramDiv {
+    /*height: 100%; */
+    /* width: 80%; */
+	/* position: relative; */
+	border: green solid 0px; 
+  background: transparent;
+	/*background-color: white;*/
+	padding: 0;
+	/* float: right; */
+}
+
+#footer {
+	/*margin-top: -30px;*/
+	/*margin: -112px 0 0;
+	min-width: 400px;*/
+	/*height: 112px;*/
+
+/*	background: rgba(255,255,155,1.0);*/
+	/* float: right; */
+	/* clear: both; */
+	/* width: 80%; */
+}
+
+/****** Things in the header *******/
+
+#header {
+	text-align: left;
+  vertical-align: bottom;
+	padding: 0;
+	margin: 0 0 0 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+	height: 16px;
+	background-color: #333;
+	clear:both;
+	width:100%;
+	border-bottom: solid 1px #ACA9A9;
+  line-height: 100%;
+}
+
+.email {
+  display: inline;
+  float: left; 
+  border: 0px green solid; 
+  padding: 0;
+  margin: 0;
+  padding-left: 7px;
+  padding-top: 2px;
+  height: 16px;
+  font-size: 16px;
+  color: #DAD7D7;
+}
+
+.searchTxt {
+  display: inline; 
+  float: right; 
+  padding: 0;
+  margin: 0;
+  padding-right: 7px;
+  vertical-align: top;
+  /*border-top: 1px solid red;*/
+  /* all caps*/
+  font-size: 14;
+  color: #C0C0C0;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#jazzCombo2 {
+  border: 1px solid #ACA9A9;
+  height: 15px; 
+  width: 203px;
+  color: #bebebe;
+  margin: 0px;
+  padding: 0px;
+  /*margin-top: 3px;*/
+  font-family: 'Viga', sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  
+  background-postion: right;
+  background-color: white;
+}
+
+#searchBtn {
+  background: url(images/search_btn.gif) no-repeat center;
+  background-color: #cccccc;
+  border: 1px solid #ACA9A9;
+  width: 30px;
+  height: 17px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerText {
+  display: inline; 
+  float: left;
+  padding-top: 2px;
+  padding-right: 5px;
+  font-weight: regular;
+}
+
+.padLeft {
+  padding-left: 15px;
+}
+
+/* dib wrapping the dropdown */
+.ddDiv {
+  display: inline; 
+  float: left; 
+  padding: 0; 
+  margin: 0;
+  overflow: hidden; 
+  width: 338px; 
+  background: url(images/arrow.png) right no-repeat #FFFFFF;
+}
+
+/* dropdown style */
+#landmarkSessions {
+  background: transparent;
+	font-family: 'Viga', sans-serif;
+	font-weight: normal;
+  font-size: 10px;
+	color: #737373;
+/*  height: 20px;*/
+  width: 366px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+  border: 1px solid #ACA9A9;
+}
+
+
+
+/**** Details styles ****/
+.detailsPanelDiv {
+  position: absolute;
+  top: 27px;
+	width: 240px;
+  padding: 0;
+	font-size: 10pt;
+	vertical-align: top; 
+	color:#333; 
+	text-align: left;
+}
+
+.topDetails {
+  width: 220px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+	background-color: #e7e7e7;
+  font-family: 'Signika Negative', sans-serif;
+  line-height: 14px;
+  opacity: 0.8;
+	color: #333333;
+}
+
+.detailsDivider {
+  display: block;
+  align: left;
+  width: 220px; 
+  height: 1px; 
+  background-color: #d3d1d1; 
+  margin-top: 15px; 
+  margin-bottom: 10px;
+}
+
+#musicianName {
+  font-size: 14px;
+  font-weight: bold; 
+  padding: 0;
+  padding-bottom: 10px; 
+  text-align: left;
+}
+
+
+.detailsPhotoDiv {
+	text-align: center;
+  width: 180px;
+  height: 200px;
+	border: 3px #737373 solid;
+}
+
+.detailsPhoto {
+  opacity: 1.0;
+	margin:0; 
+	padding: 0px;
+}
+
+.detailsTitle {
+	/*font-family: sans-serif; */
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align: left; 
+	color: #333333;
+	font-size: 200%; 
+	font-weight: bold;
+}
+
+.detailsDOB {
+  font-size: 12px;
+  font-weight: bold;
+	text-align: left;
+  padding-top: 10px;
+  padding-left: 2px;
+	margin: 0px;
+}
+
+.sessionDetails {
+	color: #333333; 
+	text-align:left; 
+	margin: 7px;
+}
+
+.sessDetails {
+/*	text-decoration: underline;*/
+	display: inline;
+	padding-left: 4px;
+}
+
+.sessDetails:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 4px;
+/*	text-indent: -4px;*/
+}
+
+ul li { 
+/*	display: list-item;*/
+	display: inline;
+}
+
+ul li.collapsed:before {
+	display: inline;
+	padding-left: 4px;
+	content: '\25b7';
+}
+
+ul li.expanded:before {
+	content: '\25BD';
+	display: inline;
+	padding-left: 4px;
+}
+
+.sessPpl {
+	display: block;
+	padding-left: 20px;
+	padding-bottom: 4px;
+/*	border: 1px dashed orange;
+	border-color: white;
+	border-width: 1px;
+	border-style: none none dotted none;*/
+}
+
+.sessDivider {
+	height: 1px;
+	width: 50%;
+	border-color: white;
+	border-width: 1px;
+	border-style: none none dotted none;
+}
+
+.partnerDetails {
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+	color: white; 
+	text-align:left; 
+	margin: 7px;
+}
+
+.chart {
+}
+
+/* --> */
+
+/*
+<!--[if lt IE 7]>
+<style media="screen" type="text/css">
+.col1 {
+    width:100%;
+}
+</style>
+    <![endif]--> 
+*/
+
+
+/* slider styles */
+#sliderDiv {
+  position: absolute;
+}
+
+/* autocomplete */
+#myAutoComplete { 
+	width:15em; /* set width here or else widget will expand to fit its container */ 
+	padding-bottom:2em;
+	display: inline-block;
+}
+
+/* message with session, musicians counts */
+#sessionsCntr {
+	/*position: absolute;  */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*top: 0;  */
+	left: 0; 
+	color: white;
+	text-align: left;
+}
+
+.ui-slider {
+  background: url('images/controller_bar.png');
+}
+
+.ui-slider .ui-slider-handle { 
+  width: 8px; 
+  height: 8px;
+  padding: 0px;
+  margin: 0; 
+  cornerRadius: 0; 
+  background: url('images/controller_lever.png'); 
+}
+.ui-slider-horizontal .ui-slider-handle { top: -1px; margin-left: 0px; background: url('images/controller_lever.png'); }
+.ui-slider-horizontal { height: 8px; }
+#slider { margin: 0px; padding: 0px; background: #aaa;}
+
+
+.ui-slider :active { background: #FF7F50;}
+.ui-slider :hover { }
+
+.ui-widget :default { background: #aaa;}
+
+
+.tipsy { pointer-events: none; padding: 5px; font-size: 12px; position: absolute; z-index: 100000; }
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-arrow { position: absolute; background: url(tipsy.gif) no-repeat top left; width: 9px; height: 5px; }
+  .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; }
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; }
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -4px; background-position: bottom left; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
+  .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
+  .tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+
+
+#showPerformerBtn {
+  text-align: center;  
+  padding-top:1px; 
+  padding-bottom:1px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right: 5px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  background-color: gray;
+  height: 18px;
+}
+
+#showPerformerBtn:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  opacity: 0.8;
+  /*color: #444;
+  font-weight: bold;*/
+}
+
+
+#suggestBtn {
+  text-align: center;  
+  padding-top:1px; 
+  padding-bottom:1px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right: 15px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  background-color: gray;
+  height: 18px;
+}
+
+#suggestBtn:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  opacity: 0.8;
+  /*color: #444;
+  font-weight: bold;*/
+}
+
+
+.buttonStyle {
+  /*background: url(images/btn_left_20.png) no-repeat;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 3px;
+  margin-right: 5px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+/*
+#suggestMus:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  color: #444;
+  text-decoration: underline;
+}
+*/
+
+.buttonStyle:hover {
+  background-color: lightblue;
+}
+
+.buttonStyle .pointerDiv {
+  float: left;
+	height: 18px;
+	/*background: url(images/btn_stretch_20.png) repeat-x left top;*/
+	line-height: 18px;
+	padding-left: 0px;
+  padding-right: 0px;
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.buttonStyle span {
+  /*background: url(images/btn_right_20.png) no-repeat;*/
+	float: left;
+  position: relative;
+	width: 10px;
+	height: 18px;
+}
+
+.floatingInline {
+  float: left;
+  border: 1px solid #f00;
+}
+
+
+.detailsBlock {
+  display: block;
+  overflow: hidden;
+  padding-top: 2px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+
+.dobLine {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.bornLabel {
+  display: inline;
+  font-weight: bold;
+  padding-right: 10px;
+  width: 30px;
+  float: left;
+}
+
+.lineBlock {
+  width: 65px; 
+  text-align: right; 
+  display: inline-block;
+}
+
+.toolLine {
+  font-family: 'Viga', sans-serif
+  color: #666666;
+  text-transform: uppercase;
+  line-height: 10px;
+  font-weight: normal;
+  float: left;
+  width: 100%;
+}
+
+#goFullScreen {
+  background: url(images/fullscreen_btn.gif) no-repeat;
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  padding: 0;
+}
+
+#exitFullScreen {
+  background: url(images/smallscreen_btn.gif) no-repeat;
+}
+
+#singlePlr {
+  background: url(images/singleplay_btn.gif) no-repeat;
+}
+
+#doublePlr {
+  background: url(images/doubleplay_btn.gif) no-repeat;
+}
+
+#helpBtn {
+  background: url(images/info_btn.gif) no-repeat;
+}
+
+.iconClass {
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.detailText {
+  border: 0px yellow solid;
+  float:left;
+  width: 85px; 
+  padding-right: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.visCount {
+  border: 0px red solid;
+  width: 65px;
+  text-align: right;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.inlineDiv {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.loadingDivStyle{
+  position: absolute;
+  left: 0px;
+  top: 27px;
+  /*display: none;*/
+}
+
+.sliderDivStyle {
+  position: absolute;
+  background-color: #f00;
+  border: 1px green solid;
+}
+
+.slideLeftImg {
+  width: 33px;
+  height: 20px;
+  position: absolute; 
+  left: -33px; 
+  top: -10px;
+  background: url("images/small_triangle.png");
+}
+
+.slideLeftImg:hover {
+  background: url("images/small_triangle_over.png");
+}
+
+.slideRightImg {
+  position: absolute;
+  right: -38px; 
+  top: -15px;
+  width: 38px;
+  height: 31px;
+  background: url("images/large_triangle.png");
+}
+
+.slideRightImg:hover {
+  background: url("images/large_triangle_over.png");
+}
+
+.ui-slider {
+  position: absolute;
+  left: 12px;
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+}

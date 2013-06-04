@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="timeline/webapp/examples/|timeline/webapp/api/scripts/l10n/pt_BR/|timeline/webapp/api/scripts/l10n/it/|timeline/webapp/api/ext/geochrono/scripts/|timeline/webapp/api/scripts/l10n/es/|timeline/webapp/docs/|timeline/webapp/api/scripts/l10n/ru/|timeline/webapp/api/ext/geochrono/|timeline/webapp/api/ext/planning/scripts/|timeline/webapp/api/ext/geochrono/scripts/l10n/en/|timeline/webapp/examples/test_dynamic_loading/|timeline/ajax/api/scripts/|timeline/webapp/api/scripts/l10n/cs/|timeline/ajax/api/|timeline/webapp/api/scripts/l10n/nl/|timeline/webapp/api/scripts/l10n/vi/|timeline/webapp/api/scripts/|timeline/webapp/api/compilations/|protovis/|timeline/webapp/examples/local_example/|timeline/webapp/api/ext/planning/|timeline/webapp/api/scripts/l10n/en/|timeline/webapp/api/ext/planning/scripts/l10n/en/|timeline/webapp/api/scripts/l10n/de/|timeline/webapp/api/scripts/ext/|timeline/webapp/examples/dinosaurs/|timeline/webapp/api/scripts/l10n/se/|timeline/webapp/examples/test_example/|timeline/webapp/api/scripts/l10n/tr/|timeline/webapp/api/scripts/l10n/zh/|timeline/webapp/examples/test_example2/|timeline/webapp/api/scripts/l10n/fr/|timeline/webapp/api/|timeline/webapp/examples/cubism/" kind="src" path=""/>
+	<classpathentry kind="src" path="protovis"/>
+	<classpathentry excluding="scripts/" kind="src" path="timeline/ajax/api"/>
+	<classpathentry kind="src" path="timeline/ajax/api/scripts"/>
+	<classpathentry excluding="scripts/l10n/pt_BR/|scripts/l10n/it/|ext/geochrono/scripts/|scripts/l10n/es/|scripts/l10n/ru/|ext/geochrono/|ext/planning/scripts/|ext/geochrono/scripts/l10n/en/|scripts/l10n/cs/|scripts/l10n/nl/|scripts/l10n/vi/|scripts/|compilations/|ext/planning/|scripts/l10n/en/|ext/planning/scripts/l10n/en/|scripts/l10n/de/|scripts/ext/|scripts/l10n/se/|scripts/l10n/tr/|scripts/l10n/zh/|scripts/l10n/fr/" kind="src" path="timeline/webapp/api"/>
+	<classpathentry kind="src" path="timeline/webapp/api/compilations"/>
+	<classpathentry excluding="scripts/|scripts/l10n/en/" kind="src" path="timeline/webapp/api/ext/geochrono"/>
+	<classpathentry excluding="l10n/en/" kind="src" path="timeline/webapp/api/ext/geochrono/scripts"/>
+	<classpathentry kind="src" path="timeline/webapp/api/ext/geochrono/scripts/l10n/en"/>
+	<classpathentry excluding="scripts/|scripts/l10n/en/" kind="src" path="timeline/webapp/api/ext/planning"/>
+	<classpathentry excluding="l10n/en/" kind="src" path="timeline/webapp/api/ext/planning/scripts"/>
+	<classpathentry kind="src" path="timeline/webapp/api/ext/planning/scripts/l10n/en"/>
+	<classpathentry excluding="l10n/pt_BR/|l10n/it/|l10n/es/|l10n/ru/|l10n/cs/|l10n/nl/|l10n/vi/|l10n/en/|l10n/de/|ext/|l10n/se/|l10n/tr/|l10n/zh/|l10n/fr/" kind="src" path="timeline/webapp/api/scripts"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/ext"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/cs"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/de"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/en"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/es"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/fr"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/it"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/nl"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/pt_BR"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/ru"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/se"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/tr"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/vi"/>
+	<classpathentry kind="src" path="timeline/webapp/api/scripts/l10n/zh"/>
+	<classpathentry kind="src" path="timeline/webapp/docs"/>
+	<classpathentry excluding="test_dynamic_loading/|local_example/|dinosaurs/|test_example/|test_example2/|cubism/" kind="src" path="timeline/webapp/examples"/>
+	<classpathentry kind="src" path="timeline/webapp/examples/cubism"/>
+	<classpathentry kind="src" path="timeline/webapp/examples/dinosaurs"/>
+	<classpathentry kind="src" path="timeline/webapp/examples/local_example"/>
+	<classpathentry kind="src" path="timeline/webapp/examples/test_dynamic_loading"/>
+	<classpathentry kind="src" path="timeline/webapp/examples/test_example"/>
+	<classpathentry kind="src" path="timeline/webapp/examples/test_example2"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

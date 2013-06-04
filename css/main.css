@@ -1,0 +1,201 @@
+/*LINKS AND NAVIGATION ------------------------------- */
+/**/
+
+
+#content p a,#content p a:link,#content p a:visited,#content p a:hover,#content p a:active,
+#content .top a,#content .top a:link,#content .top a:visited,#content .top a:hover,#content .top a:active{outline: none;text-decoration:none;color:#999;}
+
+
+#content p a:hover, #content .top a:hover {color:#ff6633;border-bottom:1px dotted #ff6633;}
+
+
+#nav li{margin-bottom: 12px;}
+
+#nav li a{text-decoration:none;}
+
+#nav li a:link, #nav li a:visited{color:#333;}
+#nav li a.current{color:#ff6633;border-top:1px dotted #ff6633;border-bottom:1px dotted #ff6633;}
+#nav li a:hover{color:#ff6633;}
+
+
+#content ul.link_list li a:link, #content ul.link_list li a:visited{color:#ff6633;}
+#content ul.link_list li a:hover{color:#FFF; background-color:#ff6633;}
+
+.launch a:hover {background-position: -106px 0;}
+.launch a:active {background-position: -106px 0;}
+
+
+/*CONTENT AREA STYLING ---------------------------------*/
+
+#content p{
+	color:#666;
+	margin-bottom:12px;
+}
+
+#content h2{
+	margin:10px 0 10px 0;
+	border-top:1px solid #b1b1b1;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-weight: 400; 
+	font-size: 14px;
+	text-transform:uppercase;
+	color:#CCC;
+}
+
+
+#content ul.img_section li{/*people page photos*/
+	border-top:1px solid #CCC;
+	padding-top: 10px;
+	clear:both;
+}
+
+#content p.large_margin{/*paragraph with large space after*/
+	margin-bottom:15px;
+}
+
+#content img.img_section{/*people photos formatting*/
+	float:left;
+	margin:5px 10px 10px 0;
+	/*border:2px solid #CCC;*/
+}
+
+#content ul.img_section li.top, #content div.top{
+	float:right;
+	border:none;
+	margin-bottom:10px}
+
+
+/*MAIN LAYOUT -------------------------------------- */
+html,body{
+	height: 100%;
+	width: 100%;
+	text-align:center;}
+	
+body{
+	border-top:6px solid #b1b1b1;
+	background-image:url(../images/bg_line.gif);
+	font-family:'Asap', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size:12px;
+	line-height:18px;
+	}
+
+#wrapper{
+	width:770px;
+	position:relative;
+	background-image:url(../images/bg_content.png);
+	background-repeat:repeat-y;
+	text-align: left;
+	
+	/*wrapper auto height and sticky footer from 
+	http://peterned.home.xs4all.nl/examples/csslayout1.html*/
+	margin:0 auto; /* center, not in IE5 */
+	height:auto !important;  
+	height:100%;
+	min-height:100%; 
+}
+
+
+#header{
+	width:707px;
+	height:205px;
+	margin-left:31px;
+	position:relative;
+	background-image:url(../images/bg_header.png);
+	background-repeat:no-repeat;}
+	
+.navStyle{
+	float:left;
+	width:170px;
+	margin:2px 0 0 31px;
+	text-align:right;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-weight: 400; 
+	font-size: 14px;
+	text-transform:uppercase;
+	}
+#content{
+	float:left;
+	width:480px;
+	margin:0 0 1px 15px;
+}
+
+#footer{
+	border-top:2px solid #999;
+	background-color:#666;
+	color:#CCC;
+	text-align:center;
+	font-size:10px;
+	position:fixed;
+	width:100%;
+	bottom:0; /* stick to bottom */}
+	
+	
+/* HEADER COMPONENTS ---------------------------------*/
+
+.launch a{/* access map button link*/
+	position:absolute;
+	top:8px;
+	left:73px;
+ 	text-indent: -5000px ;/* this move the text outside of the screen area */
+ 	display:block;
+ 	width: 106px;
+ 	height:104px;
+ 	background: url(../images/access_map_over.png) 0 0 no-repeat;
+ }
+.logo{/*map of jazz logo*/
+	position:absolute;
+	top:90px;
+	left:185px;
+	}
+	
+.reqs{/* system requirements*/
+	position:absolute;
+	top: 135px;
+	left: 185px;
+	width:170px;}
+.reqs p{/* system requirements*/
+	text-align:left;
+	font-size:10px;
+	line-height: 15px;
+	font-weight: 400;
+	font-style:italic;
+	color:#999;
+}
+.reqs p:first-line{/* system requirements*/
+	font-weight:700;}
+	
+	
+	
+/*MISC CLASSES -------------------*/
+.slide{ /*home page slideshow area*/
+	margin:5px 0 15px 0;
+}
+
+img.soon{/* coming soon images*/
+	margin: 0 0 30px 0;
+}
+
+img.tutorial{/* coming soon images*/
+	margin: 0 0 40px 0;
+}
+	
+.slideshow{/*home page slideshow backgound*/
+	background-color:#F90;}
+	
+	
+.line{/*horizontal divider used in content*/
+	width: 100%;
+	height: 5px;
+	margin:0;
+	border-top:1px solid #CCC;
+}
+
+
+ul.link_list{/*links such as faq's and tutorials */
+	margin-bottom:30px;
+}
+	
+.clear{
+	clear:both;
+}

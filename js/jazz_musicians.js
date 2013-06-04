@@ -1,0 +1,2 @@
+JazzMap.data.musicians = {
+} ();

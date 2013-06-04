@@ -1,0 +1,19 @@
+.line {
+	display: block;
+	width: 500px;
+	margin: 5px 5px 15px 5px;
+}
+
+.blah {
+	width: 100px;
+	margin: 0 10px 0 0;
+	display: inline;
+	float: left;
+	text-align: right;
+}
+
+/*
+.blah:first-letter {
+	text-decoration:underline
+}
+*/
